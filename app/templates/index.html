@@ -9,9 +9,9 @@
     <meta name=“viewport” content=“width=device-width, initial-scale=1.0”>
     <link href="../static/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="../static/js/bootstrap.min.js"></script>
-    <script src="../static/js/bootstrap.js"></script>
+    <script src="../static/js/validatepassword.js"></script>
     <script src="../static/js/jquery-3.6.0.js"></script>
-    <link href="../static/styledragdrop/style_custom.css" rel="stylesheet" id="dragdrop-css">
+    <link href="../static/css/dragdrop_passwork_custom.css" rel="stylesheet" id="dragdrop-css">
 
     <title>Form</title>
 
@@ -77,61 +77,5 @@
 <script>
   $('.file-upload').file_upload();
 
-  var myInput = document.getElementById("psw");
-var letter = document.getElementById("letter");
-var capital = document.getElementById("capital");
-var number = document.getElementById("number");
-var length = document.getElementById("length");
-
-// When the user clicks on the password field, show the message box
-myInput.onfocus = function() {
-  document.getElementById("message").style.display = "block";
-}
-
-// When the user clicks outside of the password field, hide the message box
-myInput.onblur = function() {
-  document.getElementById("message").style.display = "none";
-}
-
-// When the user starts to type something inside the password field
-myInput.onkeyup = function() {
-  // Validate lowercase letters
-  var lowerCaseLetters = /[a-z]/g;
-  if(myInput.value.match(lowerCaseLetters)) {
-    letter.classList.remove("invalid");
-    letter.classList.add("valid");
-  } else {
-    letter.classList.remove("valid");
-    letter.classList.add("invalid");
-}
-
-  // Validate capital letters
-  var upperCaseLetters = /[A-Z]/g;
-  if(myInput.value.match(upperCaseLetters)) {
-    capital.classList.remove("invalid");
-    capital.classList.add("valid");
-  } else {
-    capital.classList.remove("valid");
-    capital.classList.add("invalid");
-  }
-
-  // Validate numbers
-  var numbers = /[0-9]/g;
-  if(myInput.value.match(numbers)) {
-    number.classList.remove("invalid");
-    number.classList.add("valid");
-  } else {
-    number.classList.remove("valid");
-    number.classList.add("invalid");
-  }
-
-  // Validate length
-  if(myInput.value.length >= 8) {
-    length.classList.remove("invalid");
-    length.classList.add("valid");
-  } else {
-    length.classList.remove("valid");
-    length.classList.add("invalid");
-  }
-}
+  
 </script>
