@@ -1,0 +1,198 @@
+.files input {
+    outline: 2px dashed #92b0b3;
+    outline-offset: -10px;
+    -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    padding: 120px 0px 85px 35%;
+    text-align: center !important;
+    margin: 0;
+    width: 100% !important;
+}
+.files input:focus{     outline: 2px dashed #92b0b3;  outline-offset: -10px;
+    -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    transition: outline-offset .15s ease-in-out, background-color .15s linear; border:1px solid #92b0b3;
+ }
+.files{ position:relative}
+.files:after {  pointer-events: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 50px;
+    right: 0;
+    height: 56px;
+    content: "";
+    background-image: "..\static\img\cute-brown-cat-free-vector.jpg";
+    display: block;
+    margin: 0 auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.color input{ background-color:#f1f1f1;}
+.files:before {
+    position: absolute;
+    bottom: 10px;
+    left: 0;  pointer-events: none;
+    width: 100%;
+    right: 0;
+    height: 57px;
+    content: " or drag it here. ";
+    display: block;
+    margin: 0 auto;
+    color: #2ea591;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+
+input {
+
+    width: 100%;
+
+    padding: 12px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 4px;
+
+    box-sizing: border-box;
+
+    margin-top: 6px;
+
+    margin-bottom: 16px;
+
+  }
+/*------------------------------------------------*/
+/* Style all input fields */
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  /* Style the container for inputs */
+  .container {
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  /* The message box is shown when the user clicks on the password field */
+  #message {
+    display:none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  
+  #message p {
+    padding: 10px 35px;
+    font-size: 18px;
+  }
+  
+  /* Add a green text color and a checkmark when the requirements are right */
+  .valid {
+    color: green;
+  }
+  
+  .valid:before {
+    position: relative;
+    left: -35px;
+    content: "&#10004;";
+  }
+  
+  /* Add a red text color and an "x" icon when the requirements are wrong */
+  .invalid {
+    color: red;
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: -35px;
+    content: "&#10006;";
+  }  /* Style the submit button */
+
+  input[type=submit] {
+
+    background-color: #4CAF50;
+
+    color: white;
+
+  }
+
+  /* Style the container for inputs */
+
+  .container {
+
+    background-color: #f1f1f1;
+
+    padding: 20px;
+
+  }
+
+  #message {
+
+    display:none;
+
+    background: #f1f1f1;
+
+    color: #000;
+
+    position: relative;
+
+    padding: 20px;
+
+    margin-top: 10px;
+
+  }
+
+  #message p {
+
+    padding: 10px 35px;
+
+    font-size: 18px;
+
+  }
+
+  .valid {
+
+    color: rgb(3, 184, 190);
+
+  }
+
+  .valid:before {
+
+    position: relative;
+
+    left: -35px;
+
+    content: #1004;
+
+  }
+
+  .invalid {
+
+    color: red;
+
+  }
+
+  .invalid:before {
+
+    position: relative;
+
+    left: -35px;
+
+    content: #1006;
+
+  }
