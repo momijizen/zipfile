@@ -1,0 +1,10 @@
+192.168.20.246 - - [18/Oct/2022:07:52:32 +0700] "GET / HTTP/1.1" 200 10830
+192.168.20.246 - - [18/Oct/2022:07:52:32 +0700] "GET /static/css/custom_dragdrop_v2.css HTTP/1.1" 304 204
+192.168.20.246 - - [18/Oct/2022:07:52:32 +0700] "GET /static/js/bootstrap.bundle.js HTTP/1.1" 304 201
+192.168.20.246 - - [18/Oct/2022:07:52:32 +0700] "GET /static/css/bootstrap.css HTTP/1.1" 304 195
+192.168.20.246 - - [18/Oct/2022:07:52:32 +0700] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 199
+192.168.20.246 - - [18/Oct/2022:07:52:33 +0700] "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 304 201
+192.168.20.246 - - [18/Oct/2022:07:52:33 +0700] "GET /static/img/howto.png HTTP/1.1" 304 191
+192.168.20.246 - - [18/Oct/2022:07:52:33 +0700] "GET /static/img/zipicon.png HTTP/1.1" 304 193
+192.168.20.246 - - [18/Oct/2022:07:52:33 +0700] "GET /favicon.ico HTTP/1.1" 404 407
+192.168.20.246 - - [18/Oct/2022:07:52:36 +0700] "POST /closeapp HTTP/1.1" 200 0

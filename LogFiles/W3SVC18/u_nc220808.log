@@ -1,0 +1,9 @@
+192.168.20.245 - - [08/Aug/2022:08:20:43 +0700] "GET / HTTP/1.1" 200 10830
+192.168.20.245 - - [08/Aug/2022:08:20:43 +0700] "GET /static/css/bootstrap.css HTTP/1.1" 200 205778
+192.168.20.245 - - [08/Aug/2022:08:20:43 +0700] "GET /static/img/howto.png HTTP/1.1" 200 19803
+192.168.20.245 - - [08/Aug/2022:08:20:43 +0700] "GET /static/img/zipicon.png HTTP/1.1" 200 3318
+192.168.20.245 - - [08/Aug/2022:08:20:43 +0700] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 164171
+192.168.20.245 - - [08/Aug/2022:08:20:43 +0700] "GET /static/css/custom_dragdrop_v2.css HTTP/1.1" 200 1243
+192.168.20.245 - - [08/Aug/2022:08:20:43 +0700] "GET /static/js/bootstrap.bundle.js HTTP/1.1" 200 210033
+192.168.20.245 - - [08/Aug/2022:08:20:43 +0700] "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 200 89814
+192.168.20.245 - - [08/Aug/2022:08:20:43 +0700] "GET /favicon.ico HTTP/1.1" 404 407

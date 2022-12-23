@@ -1,0 +1,36 @@
+.upload-container {
+    position: relative;
+}
+.upload-container input {
+    outline: solid #f30303;
+    outline-offset: -10px;
+    -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    padding: 85px 0px 50px 35%;
+    text-align: center !important;
+    margin: 0;
+    width: 100% !important;
+}
+.upload-container input:hover {
+    outline: solid #f30303;
+    background: rgb(252, 246, 246);
+}   
+.upload-container:before {
+    position: absolute;
+    bottom: 10px;
+    left: 0;  pointer-events: none;
+    width: 100%;
+    right: 0;
+    height: 30px;
+    content: " or drag it here. ";
+    display: block;
+    margin: 0 auto;
+    color: #2ea591;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+}   
+.upload-btn {
+    margin-left: 300px;
+    padding: 7px 20px;
+}        
